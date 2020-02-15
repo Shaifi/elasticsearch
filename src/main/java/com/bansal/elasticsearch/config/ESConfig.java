@@ -14,7 +14,7 @@ import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "com.birdeye.elasticsearch.repository")
+@EnableElasticsearchRepositories(basePackages = "com.bansal.elasticsearch.repository")
 public class ESConfig {
 
     @Value("${es.host}")
